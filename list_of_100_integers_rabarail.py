@@ -7,4 +7,5 @@ import random
 list = ([random.randint(1, 10) for _ in range(100)])
 print(list)
 print("Sum of list:", sum(list))
+print("Average of list:", sum(list)/len(list))
 
